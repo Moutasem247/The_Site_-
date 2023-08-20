@@ -1,0 +1,169 @@
+body {
+    background-image: url(noah-who-ina-background-4.jpg);
+}
+
+/* #content1 {
+
+}
+
+.imag {
+    width: 500px;
+    margin-left: 50%;    
+} */
+
+#Logo {
+    /* border-style: solid;
+    border-color: blue;
+    border-image: url(noah-who-ina-background-1.jpg); */
+    text-decoration-line: none;
+    font-family: fantasy;
+    font-size: 300%;
+    color: rgb(251, 173, 234);
+    text-shadow: 2px 2px rgb(100, 50, 155, 8);
+    /* text-align: center; */
+    margin-left: 0px;
+}
+
+/* @keyframes mymove {
+  0%   {top: 0px; left: 0px; color: red;}
+  25%  {top: 0px; left: 100px; color: blue;}
+  50%  {top: 100px; left: 100px; color: yellow;}
+  75%  {top: 100px; left: 0px; color: green;}
+  100% {top: 0px; left: 0px; color: red;}
+} */
+
+#Logo:hover {
+    text-decoration-line: none;
+    color: black;
+    transition: 0.8s;
+}
+
+#na {
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-decoration-line: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    /* text-align: center; */
+    text-shadow: 3px 3px black;
+    color: aliceblue;
+    /* border-style: solid;
+    border-width: 4px;
+    
+    border-color:rgb(181, 68, 127) ;
+    border-radius: 25%;
+    border-left-color: blueviolet;
+    background-color: rgb(188, 197, 249); */
+    /* padding: 2%;
+    margin: 2%; */
+    /* position: relative;
+    animation: mymove 5s infinite; */
+    /* overflow: auto;
+    margin-right: 0px;
+    margin: 2%; */
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+#na::after {
+    color: brown;
+    border-color: blueviolet;
+    border-width: 6px;
+    font-size: 300%;
+    background-color: blue;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #8f7eff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+
+@media (max-width: 767px) {
+    #na {
+            text-decoration-line: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 100%;
+            text-shadow: 2px 2px rgb(0, 0, 0);
+            color: rgb(180, 153, 255);
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+            text-align: center;
+            }
+
+}
+
+@media (max-width: 768px) and (min-width: 991px) {
+    
+    
+}
+
+@media (max-width: 992px) {
+    
+    
+}
+
+@media (max-width: 1200px) {
+    
+    
+}
+
+#na:hover::after {
+    
+    width: 100%;
+}
+
+#na:hover {
+    /* color: brown;
+    border-color: blueviolet;
+    border-width: 6px;
+    font-size: 300%;
+    background-color: blue;
+    transition: 0.8s; */
+}
+
+/* #na::after {
+    border-color: rgb(181, 68, 127);
+    border-radius: 25%;
+    border-left-color: blueviolet;
+    background-color: rgb(188, 197, 249);
+    
+} */
+
+nav {
+    /* text-align: center;
+    border-style: solid;
+    border-color: rgba(222, 207, 255, 0.7);
+    background-color: rgba(222, 207, 255, 0.7) ;
+    border-radius: 25%;
+    border-width: 5px 5px;
+    margin-left: 0;
+    overflow: auto;
+    background-image: url(noah-who-ina-background-1.jpg);
+    background-blend-mode:multiply;
+    margin-right: 0px; */
+    
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-image: url("noah-who-ina-background-1.jpg");
+    height: 200px ;
+    padding-top: 0%;
+    margin: 0 auto;
+}
+
+pre {
+    color: white;
+    text-align: center;
+}
+
+#lor {
+    border-style: dotted;
+    border-width: 4px;
+}
